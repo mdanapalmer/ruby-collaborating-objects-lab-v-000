@@ -4,7 +4,10 @@ class MP3Importer
     @filepath = filepath
   end
 
-  def File.join(File.dirname(__FILE__), *%w[rel path here])
+  def path 
+    
+  end
+  
 
 
 end
