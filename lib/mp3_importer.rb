@@ -1,6 +1,6 @@
 class MP3Importer
 
-  def initialize(./spec/fixtures/mp3s)
+  def initialize("./spec/fixtures/mp3s")
     @filepath = filepath
   end
 
