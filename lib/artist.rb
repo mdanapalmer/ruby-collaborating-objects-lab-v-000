@@ -32,7 +32,7 @@ class Artist
 end
 
 def print_songs
-  @songs.collect do |song|
+  @songs.each do |song|
     print "#{song}"
   end
 
