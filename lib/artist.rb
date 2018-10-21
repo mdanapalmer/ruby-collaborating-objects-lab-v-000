@@ -34,8 +34,8 @@ end
 def print_songs
   @songs.collect do |song|
     print "#{song}"
-    ene
-    
+  end
+
 end
 
 end
