@@ -32,7 +32,10 @@ class Artist
 end
 
 def print_songs
-  print @songs
+  @songs.collect do |song|
+    print "#{song}"
+    ene
+    
 end
 
 end
